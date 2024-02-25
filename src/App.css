@@ -1,0 +1,34 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+section,
+.section {
+  margin: 0;
+  padding: 0;
+
+  position: absolute;
+
+  height: 100vh;
+  width: 100%;
+
+  transform: translateX(0) translateY(0);
+}
+
+section:nth-child(1) {
+  background-color: antiquewhite;
+}
+
+section:nth-child(2) {
+  background-color: azure;
+}
+
+section:nth-child(3) {
+  background-color: rgb(255, 244, 240);
+}
